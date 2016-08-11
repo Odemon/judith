@@ -1,7 +1,13 @@
+/*install the downloaded font*/
+@font-face { font-family: Mainfont; 
+			src: url(directors.ttf);
+} 
 
 body {
 	/*background of the whole page*/
 	background:white;
+	font-family: Mainfont, sans-serif;
+	font-size:200%;
 }
 
 ul {

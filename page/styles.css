@@ -1,8 +1,11 @@
+
 body {
+	/*background of the whole page*/
 	background:white;
 }
 
 ul {
+	/*take the dots off the list*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,6 +31,8 @@ li a:hover {
 }
 #container {
 	width:600px;
+	padding: 300px 0;
+	text-align:center;
 	margin:0 auto;
 	background:white;
 }
